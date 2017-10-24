@@ -18,7 +18,7 @@ This should run natively in linux.
 1. Browse to a restricted page (i.e. any page past the main index e.g. "EMIS")
 1. In the Developer tools, under "Name", click the document name of the link you clicked e.g. "EMIS"
 1. A side tab will appear. Click "Headers" tab.
-1. Within Headers tab, under "Request Heades", copy the "Cookie:" section (including the "Cookie: ")
+1. Within Headers tab, under "Request Headers", copy the "Cookie:" section (including the "Cookie: ")
 
 ### Update script
 1. Edit [backup_media_wiki.sh](backup_media_wiki.sh) and change the top variables to your own output folder or media wiki website
